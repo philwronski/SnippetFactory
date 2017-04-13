@@ -1,0 +1,11 @@
+server:
+  port: 9000
+  display-name: snippet-factory.dev
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: snippet-factory
+      repositories.enabled: true
